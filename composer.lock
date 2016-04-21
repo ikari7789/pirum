@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d11b8dcd770d93b1a9ce468b244c8733",
+    "content-hash": "f3b597ff653d1830ca6e2a2dfe3996ec",
+    "packages": [
+        {
+            "name": "pirum/pirum",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot-graveyard/Pirum.git",
+                "reference": "2d76c79aeb27d7d1278af3583bff08629c9fcafe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot-graveyard/Pirum/zipball/2d76c79aeb27d7d1278af3583bff08629c9fcafe",
+                "reference": "2d76c79aeb27d7d1278af3583bff08629c9fcafe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "bin": [
+                "pirum"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pirum, the simple PEAR Channel Server Manager",
+            "homepage": "http://pirum.sensiolabs.org",
+            "keywords": [
+                "PEAR"
+            ],
+            "time": "2013-05-07 17:52:35"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

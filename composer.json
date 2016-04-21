@@ -1,0 +1,14 @@
+{
+    "name": "ikari7789/pirum",
+    "description": "PEAR repository for legacy application dependencies.",
+    "require": {
+        "pirum/pirum": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Miller",
+            "email": "andrew.miller@rakuten.com"
+        }
+    ]
+}
