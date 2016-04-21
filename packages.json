@@ -1,1 +1,302 @@
-[]
+{
+    "pear-ikari7789\/File_Iterator": {
+        "versions": {
+            "1.3.1": {
+                "name": "pear-ikari7789\/File_Iterator",
+                "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/File_Iterator-1.3.1.tgz"
+                },
+                "version": "1.3.1",
+                "time": "2016-04-21T06:52:59+00:00",
+                "require": {
+                    "php": ">=5.2.7"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "File"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ikari7789\/File_Iterator",
+        "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/PHPUnit": {
+        "versions": {
+            "3.6.12": {
+                "name": "pear-ikari7789\/PHPUnit",
+                "description": "The PHP Unit Testing framework.",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/PHPUnit-3.6.12.tgz"
+                },
+                "version": "3.6.12",
+                "time": "2016-04-21T06:53:14+00:00",
+                "require": {
+                    "php": ">=5.2.7",
+                    "pear-ikari7789\/File_Iterator": ">=1.3.0",
+                    "pear-ikari7789\/Text_Template": ">=1.1.1",
+                    "pear-ikari7789\/PHP_CodeCoverage": ">=1.1.0",
+                    "pear-ikari7789\/PHP_Timer": ">=1.0.1",
+                    "pear-ikari7789\/PHPUnit_MockObject": ">=1.1.0",
+                    "pear-symfony\/YAML": ">=1.0.2",
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "pear-ikari7789\/PHP_Invoker": ">=1.1.0",
+                    "ext-json": "*",
+                    "ext-simplexml": "*",
+                    "ext-tokenizer": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "PHPUnit"
+                    }
+                }
+            }
+        },
+        "name": "pear-ikari7789\/PHPUnit",
+        "description": "The PHP Unit Testing framework.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/PHPUnit_MockObject": {
+        "versions": {
+            "1.1.1": {
+                "name": "pear-ikari7789\/PHPUnit_MockObject",
+                "description": "Mock Object library for PHPUnit",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/PHPUnit_MockObject-1.1.1.tgz"
+                },
+                "version": "1.1.1",
+                "time": "2016-04-21T06:53:09+00:00",
+                "require": {
+                    "php": ">=5.2.7",
+                    "pear-ikari7789\/Text_Template": ">=1.1.1,<=1.1.2",
+                    "ext-reflection": "*",
+                    "ext-spl": "*"
+                },
+                "suggest": {
+                    "ext-soap": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PHPUnit\/Framework\/MockObject"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ikari7789\/PHPUnit_MockObject",
+        "description": "Mock Object library for PHPUnit",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/PHP_CodeCoverage": {
+        "versions": {
+            "1.1.1": {
+                "name": "pear-ikari7789\/PHP_CodeCoverage",
+                "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/PHP_CodeCoverage-1.1.1.tgz"
+                },
+                "version": "1.1.1",
+                "time": "2016-04-21T06:53:02+00:00",
+                "require": {
+                    "php": ">=5.2.7",
+                    "pear-ikari7789\/File_Iterator": ">=1.3.0",
+                    "pear-ikari7789\/PHP_TokenStream": ">=1.1.0",
+                    "pear-ikari7789\/Text_Template": ">=1.1.1"
+                },
+                "suggest": {
+                    "ext-dom": "*",
+                    "ext-reflection": "*",
+                    "ext-spl": "*",
+                    "ext-xdebug": ">=2.0.5"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "PHP"
+                    }
+                }
+            }
+        },
+        "name": "pear-ikari7789\/PHP_CodeCoverage",
+        "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/PHP_Timer": {
+        "versions": {
+            "1.0.2": {
+                "name": "pear-ikari7789\/PHP_Timer",
+                "description": "Utility class for timing",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/PHP_Timer-1.0.2.tgz"
+                },
+                "version": "1.0.2",
+                "time": "2016-04-21T06:53:04+00:00",
+                "require": {
+                    "php": ">=5.2.7"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PHP\/Timer\/Autoload.php",
+                        "PHP\/Timer.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ikari7789\/PHP_Timer",
+        "description": "Utility class for timing",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/PHP_TokenStream": {
+        "versions": {
+            "1.1.3": {
+                "name": "pear-ikari7789\/PHP_TokenStream",
+                "description": "Wrapper around PHP's tokenizer extension.",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/PHP_TokenStream-1.1.3.tgz"
+                },
+                "version": "1.1.3",
+                "time": "2016-04-21T06:53:07+00:00",
+                "require": {
+                    "php": ">=5.2.7",
+                    "ext-tokenizer": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PHP"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ikari7789\/PHP_TokenStream",
+        "description": "Wrapper around PHP's tokenizer extension.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-ikari7789\/Text_Template": {
+        "versions": {
+            "1.1.1": {
+                "name": "pear-ikari7789\/Text_Template",
+                "description": "Simple template engine.",
+                "dist": {
+                    "type": "pear",
+                    "url": "https:\/\/ikari7789.github.com\/pirum\/get\/Text_Template-1.1.1.tgz"
+                },
+                "version": "1.1.1",
+                "time": "2016-04-21T06:53:16+00:00",
+                "require": {
+                    "php": ">=5.2.7"
+                },
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sb@sebastian-bergmann.de",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Text\/Template\/Autoload.php",
+                        "Text\/Template.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-ikari7789\/Text_Template",
+        "description": "Simple template engine.",
+        "maintainers": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "homepage": ""
+            }
+        ]
+    }
+}
