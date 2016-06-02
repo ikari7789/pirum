@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<l xmlns="http://pear.php.net/dtd/rest.categorypackages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackages http://pear.php.net/dtd/rest.categorypackages.xsd">
+  <p xlink:href="/rest/p/file_iterator">File_Iterator</p>
+  <p xlink:href="/rest/p/phpunit">PHPUnit</p>
+  <p xlink:href="/rest/p/phpunit_mockobject">PHPUnit_MockObject</p>
+  <p xlink:href="/rest/p/php_codecoverage">PHP_CodeCoverage</p>
+  <p xlink:href="/rest/p/php_timer">PHP_Timer</p>
+  <p xlink:href="/rest/p/php_tokenstream">PHP_TokenStream</p>
+  <p xlink:href="/rest/p/text_template">Text_Template</p>
+
+</l>
