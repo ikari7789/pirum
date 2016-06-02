@@ -112,7 +112,7 @@ for ((index = 0; index < ${#REPOSITORY_NAMES[@]}; index++)); do
 done
 popd
 
-git rm -rf .gitignore composer.json composer.lock pirum.xml release.sh build/ vendor/
+rm -rf .gitignore composer.json composer.lock pirum.xml release.sh build/ vendor/
 git add --all
 git commit -m "Released GitHub pages based on ${CURRENT_BRANCH} branch."
 git push --force --set-upstream origin gh-pages
