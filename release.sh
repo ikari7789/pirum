@@ -69,7 +69,7 @@ fi
 git branch -D gh-pages
 
 # Create a new gh-pages branch and switch to it.
-git checkout -b gh-pages
+git checkout --orphan gh-pages
 
 # We will re-build all the packages from scratch
 # So remove files related to the channel
